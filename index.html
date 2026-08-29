@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CAREBRIDGE | Bridging the gap between diagnosis and treatment</title>
+<meta name="description" content="CAREBRIDGE is a clean, corporate patient-support platform that helps clinics bridge the gap between diagnosis and treatment through reminders, medicine tracking, finance support, awareness campaigns, and continuity of care." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container inner">
+      <div>CAREBRIDGE helps clinics support patients after diagnosis.</div>
+      <div class="links">
+        <span>Appointments & follow-ups</span>
+        <span>Medicine tracking & delivery</span>
+        <span>Finance guidance & awareness campaigns</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="bar">
+        <a href="#home" class="brand-wrap" aria-label="CAREBRIDGE">
+          <img class="brand-logo" src="assets/carebridge-logo.jpg" alt="CAREBRIDGE logo" />
+        </a>
+
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#providers">For clinics</a>
+          <a href="#awareness">Awareness</a>
+          <a href="#partner">Partner with us</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#experience" class="btn btn-light">View product</a>
+          <a href="#partner" class="btn btn-primary">Request a demo</a>
+        </div>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#providers">For clinics</a>
+        <a href="#awareness">Awareness</a>
+        <a href="#partner">Partner with us</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="kicker">Patient-support platform</div>
+          <h1><span class="marker">Bridging the gap</span> between diagnosis and treatment.</h1>
+          <p>
+            CAREBRIDGE is designed to help clinics support patients after diagnosis through a clean,
+            corporate, easy-to-use digital experience. It brings together appointments, diagnostic tests,
+            follow-ups, medicine intake charts, medicine delivery, finance exploration, awareness campaigns
+            and smaller treatment-related support in one connected platform.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#partner" class="btn btn-primary">Book partnership call</a>
+            <a href="#experience" class="btn btn-light">Explore features</a>
+          </div>
+
+          <div class="hero-pills">
+            <div class="hero-pill"><i>✓</i> Clean corporate UI</div>
+            <div class="hero-pill"><i>✓</i> Working interactive demos</div>
+            <div class="hero-pill"><i>✓</i> Better feature visibility</div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80" alt="Doctor discussing treatment plan with patient" />
+            <div class="overlay">
+              <h3>One place for the next step</h3>
+              <p>The patient should always know what to do next, why it matters, and how to get help.</p>
+            </div>
+          </div>
+
+          <div class="portal-card">
+            <div class="portal-head">
+              <h4>Today’s patient view</h4>
+              <span class="tag teal">On track</span>
+            </div>
+            <div class="portal-list">
+              <div class="portal-item">
+                <div class="portal-icon">＋</div>
+                <div><strong>Medicine B</strong><span>Due at 2:00 PM · After lunch</span></div>
+                <span class="tag blue">Due now</span>
+              </div>
+              <div class="portal-item">
+                <div class="portal-icon">◷</div>
+                <div><strong>Blood test</strong><span>Tomorrow · 9:30 AM</span></div>
+                <span class="tag amber">Upcoming</span>
+              </div>
+              <div class="portal-item">
+                <div class="portal-icon">?</div>
+                <div><strong>Support request</strong><span>Clarify smaller treatment doubts</span></div>
+                <span class="tag teal">Available</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-card">
+            <h4>Quick treatment summary</h4>
+            <div class="stats-grid">
+              <div class="stat-box">
+                <label>Medicine adherence</label>
+                <strong id="heroAdherence">67%</strong>
+                <span>2 of 3 doses completed</span>
+              </div>
+              <div class="stat-box">
+                <label>Next follow-up</label>
+                <strong>4 Sep</strong>
+                <span>Consultation booked</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container reveal">
+        <div class="service-strip">
+          <div class="service-card">
+            <div class="service-icon ic-blue">01</div>
+            <h3>Post-diagnosis continuity</h3>
+            <p>The platform begins where many patients lose momentum: after the consultation is over.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon ic-teal">02</div>
+            <h3>Organized patient journey</h3>
+            <p>Appointments, tests, medicines and follow-ups are arranged in one clear timeline.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon ic-red">03</div>
+            <h3>Affordability support</h3>
+            <p>Insurance, EMI and financing exploration help patients understand possible payment routes.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon ic-soft">04</div>
+            <h3>Education & awareness</h3>
+            <p>Campaigns and sessions help patients build awareness beyond their immediate treatment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="content-panel reveal">
+          <div class="kicker">Why the platform matters</div>
+          <h3>Diagnosis is only the first step. Many patients still need help continuing care.</h3>
+          <p class="lead">
+            Some patients postpone treatment because of cost. Some do not fully understand why the treatment
+            is necessary. Some have smaller doubts and do not want to book another full appointment just to ask.
+            CAREBRIDGE gives clinics a practical way to support patients through those gaps.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon ic-blue">◷</div>
+              <div>
+                <h4>Clear next steps</h4>
+                <p>The patient always sees the next action, whether that is a test, a follow-up, a medicine or a checkup.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon ic-teal">?</div>
+              <div>
+                <h4>Smaller treatment support</h4>
+                <p>Medical health experts or trained clinic executives can help answer smaller treatment-related questions.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon ic-red">₹</div>
+              <div>
+                <h4>Finance exploration</h4>
+                <p>Surface insurance, EMI and healthcare financing options before treatment is delayed because of cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-block reveal">
+          <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1400&q=80" alt="Patient using a mobile phone to manage healthcare support" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="experience">
+      <div class="container">
+        <div class="section-head center reveal">
+          <div class="kicker">Interactive Patient Portal</div>
+          <h2>A patient portal that feels like a real healthcare product.</h2>
+          <p>
+            This version gives the product room to breathe. The portal uses a familiar application layout,
+            clearer navigation, better spacing and working modules so patients can actually understand what they can do.
+          </p>
+        </div>
+
+        <div class="patient-portal-wrap reveal" id="patientPortal">
+          <div class="patient-portal">
+            <div class="patient-portal-top">
+              <div class="portal-brandline">
+                <div class="portal-product-mark">CB</div>
+                <div>
+                  <strong>CAREBRIDGE Patient Portal</strong>
+                  <span>Connected to GreenCare Clinic</span>
+                </div>
+              </div>
+              <div class="portal-user">
+                <div class="portal-user-copy">
+                  <strong>Priya M.</strong>
+                  <span>Patient ID · CB1028</span>
+                </div>
+                <div class="portal-user-avatar">PM</div>
+              </div>
+            </div>
+
+            <div class="patient-portal-body">
+              <aside class="patient-sidebar">
+                <div class="patient-sidebar-title">My care</div>
+                <div class="tabbar" id="patientTabs" role="tablist" aria-label="Patient portal sections">
+                  <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><span class="portal-tab-icon">⌂</span>Overview</button>
+                  <button class="tab-btn" data-tab="medicines" role="tab" aria-selected="false"><span class="portal-tab-icon">＋</span>Medicines</button>
+                  <button class="tab-btn" data-tab="appointments" role="tab" aria-selected="false"><span class="portal-tab-icon">◷</span>Appointments & tests</button>
+                  <button class="tab-btn" data-tab="finance" role="tab" aria-selected="false"><span class="portal-tab-icon">₹</span>Finance</button>
+                  <button class="tab-btn" data-tab="support" role="tab" aria-selected="false"><span class="portal-tab-icon">?</span>Treatment support</button>
+                  <button class="tab-btn" data-tab="awareness-tab" role="tab" aria-selected="false"><span class="portal-tab-icon">i</span>Awareness</button>
+                </div>
+
+                <div class="sidebar-help">
+                  <strong>Need a clarification?</strong>
+                  <p>Request a callback for a smaller treatment-related question.</p>
+                  <button type="button" id="sidebarSupportBtn">Request support</button>
+                </div>
+              </aside>
+
+              <div class="patient-main">
+                <div class="tab-panel active" id="tab-overview" role="tabpanel">
+                  <div class="portal-page-head">
+                    <div>
+                      <h3>Good morning, Priya</h3>
+                      <p>Your treatment is on track. Here are the actions that matter today and what is coming up next.</p>
+                    </div>
+                    <span class="portal-on-track">Treatment on track</span>
+                  </div>
+
+                  <div class="portal-next-action">
+                    <div class="portal-next-icon">＋</div>
+                    <div>
+                      <strong>Next action: Medicine B at 2:00 PM</strong>
+                      <span>1 tablet after lunch · You can mark it completed from the Medicines section.</span>
+                    </div>
+                    <button type="button" id="goMedicinesBtn">Open medicines</button>
+                  </div>
+
+                  <div class="portal-kpi-grid">
+                    <div class="portal-kpi"><label>Today’s completion</label><strong id="overviewCompletion">67%</strong><span>2 of 3 medicine steps</span></div>
+                    <div class="portal-kpi"><label>Next test</label><strong>Tomorrow</strong><span>Blood test · 9:30 AM</span></div>
+                    <div class="portal-kpi"><label>Next follow-up</label><strong>4 Sep</strong><span>11:00 AM clinic visit</span></div>
+                    <div class="portal-kpi"><label>Open support</label><strong>1</strong><span>Clarification in progress</span></div>
+                  </div>
+
+                  <div class="portal-content-grid">
+                    <div class="portal-panel-card">
+                      <h4>Weekly treatment adherence</h4>
+                      <svg class="portal-line-chart" viewBox="0 0 640 250" preserveAspectRatio="none" aria-label="Weekly treatment adherence line chart">
+                        <defs>
+                          <linearGradient id="portalArea" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#19b19a" stop-opacity=".20"/>
+                            <stop offset="100%" stop-color="#19b19a" stop-opacity="0"/>
+                          </linearGradient>
+                          <linearGradient id="portalLine" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#0b3d79"/>
+                            <stop offset="100%" stop-color="#19b19a"/>
+                          </linearGradient>
+                        </defs>
+                        <g stroke="#e8eef3" stroke-width="1">
+                          <line x1="50" y1="200" x2="615" y2="200"/>
+                          <line x1="50" y1="150" x2="615" y2="150"/>
+                          <line x1="50" y1="100" x2="615" y2="100"/>
+                          <line x1="50" y1="50" x2="615" y2="50"/>
+                        </g>
+                        <path d="M70 110 L155 132 L240 88 L325 112 L410 78 L495 92 L580 62 L580 200 L70 200 Z" fill="url(#portalArea)"/>
+                        <polyline points="70,110 155,132 240,88 325,112 410,78 495,92 580,62" fill="none" stroke="url(#portalLine)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <g fill="#0b3d79"><circle cx="70" cy="110" r="5"/><circle cx="155" cy="132" r="5"/><circle cx="240" cy="88" r="5"/><circle cx="325" cy="112" r="5"/><circle cx="410" cy="78" r="5"/><circle cx="495" cy="92" r="5"/><circle cx="580" cy="62" r="5"/></g>
+                        <g fill="#71889b" font-size="12" font-weight="700"><text x="58" y="228">Mon</text><text x="143" y="228">Tue</text><text x="226" y="228">Wed</text><text x="313" y="228">Thu</text><text x="400" y="228">Fri</text><text x="484" y="228">Sat</text><text x="568" y="228">Sun</text></g>
+                      </svg>
+                    </div>
+
+                    <div class="portal-panel-card">
+                      <h4>Coming up</h4>
+                      <div class="portal-summary-list">
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-blue">◷</div><div><strong>Blood test tomorrow</strong><span>Diagnostic center · 9:30 AM</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-teal">✓</div><div><strong>Doctor follow-up</strong><span>4 September · 11:00 AM</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-red">₹</div><div><strong>Finance support</strong><span>2 payment routes available to explore</span></div></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="portal-bottom-grid">
+                    <div class="portal-action-card"><h5>Need treatment support?</h5><p>Ask a smaller treatment-related question without booking another full appointment.</p><button class="btn btn-sm btn-light" type="button" id="overviewSupportBtn">Request callback</button></div>
+                    <div class="portal-action-card"><h5>Need prescribed medicines?</h5><p>Request a medicine refill or clinic-connected delivery from the same portal.</p><button class="btn btn-sm btn-light" type="button" id="overviewOrderBtn">Request delivery</button></div>
+                  </div>
+                </div>
+
+                <div class="tab-panel" id="tab-medicines" role="tabpanel">
+                  <div class="portal-page-head"><div><h3>Medicines</h3><p>Keep daily medicine instructions simple, track completion and request refills before medicines run out.</p></div><span class="portal-on-track">2 of 3 completed</span></div>
+                  <div class="chart-grid">
+                    <div class="chart-card">
+                      <h4>Today’s medicine intake chart</h4>
+                      <div class="check-list" id="medicineList">
+                        <div class="check-item"><label><input class="med-check" type="checkbox" checked /> 8:00 AM · Medicine A <span style="font-weight:500;color:var(--muted)">after breakfast</span></label><span class="badge green">Taken</span></div>
+                        <div class="check-item"><label><input class="med-check" type="checkbox" checked /> 2:00 PM · Medicine B <span style="font-weight:500;color:var(--muted)">after lunch</span></label><span class="badge green">Taken</span></div>
+                        <div class="check-item"><label><input class="med-check" type="checkbox" /> 8:00 PM · Medicine C <span style="font-weight:500;color:var(--muted)">after dinner</span></label><span class="badge blue">Pending</span></div>
+                      </div>
+                      <div class="progress-row" style="margin-top:18px"><label><span>Daily completion</span><span id="medPercent">67%</span></label><div class="progress"><span id="medBar" style="width:67%;background:linear-gradient(90deg,var(--teal),#69dfcf)"></span></div></div>
+                    </div>
+                    <div class="chart-card">
+                      <h4>Refill & delivery status</h4>
+                      <div class="progress-list">
+                        <div class="progress-row"><label><span>Medicine A</span><span>8 days left</span></label><div class="progress"><span style="width:72%;background:linear-gradient(90deg,var(--navy),#4f7dc0)"></span></div></div>
+                        <div class="progress-row"><label><span>Medicine B</span><span>5 days left</span></label><div class="progress"><span style="width:48%;background:linear-gradient(90deg,#ef5b57,#ffa39f)"></span></div></div>
+                        <div class="progress-row"><label><span>Medicine C</span><span>12 days left</span></label><div class="progress"><span style="width:88%;background:linear-gradient(90deg,var(--teal),#6fdfd0)"></span></div></div>
+                      </div>
+                      <div class="notice" style="margin-top:16px">A refill reminder can appear automatically before the patient runs out of prescribed medicine.</div>
+                      <button class="btn btn-teal" type="button" id="orderMedicineBtn" style="margin-top:14px">Request medicine delivery</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-panel" id="tab-appointments" role="tabpanel">
+                  <div class="portal-page-head"><div><h3>Appointments & tests</h3><p>See scheduled care in one timeline and send a booking or reschedule request directly to the clinic.</p></div></div>
+                  <div class="chart-grid">
+                    <div class="chart-card">
+                      <h4>Upcoming treatment timeline</h4>
+                      <div class="timeline">
+                        <div class="timeline-item"><div class="time">Tomorrow</div><div><div class="event-title">Blood test</div><div class="event-copy">Diagnostic center · 9:30 AM</div></div><div class="badge blue">Scheduled</div></div>
+                        <div class="timeline-item"><div class="time">4 Sep</div><div><div class="event-title">Doctor follow-up</div><div class="event-copy">Review consultation · 11:00 AM</div></div><div class="badge teal">Confirmed</div></div>
+                        <div class="timeline-item"><div class="time">18 Sep</div><div><div class="event-title">Recommended checkup</div><div class="event-copy">Routine monitoring visit</div></div><div class="badge blue">Planned</div></div>
+                      </div>
+                    </div>
+                    <div class="chart-card">
+                      <h4>Book or reschedule</h4>
+                      <form class="form-grid" id="appointmentForm">
+                        <div class="field"><label>Request type</label><select required><option value="">Select request</option><option>Book appointment</option><option>Reschedule appointment</option><option>Book diagnostic test</option><option>Book health checkup</option></select></div>
+                        <div class="field"><label>Preferred date</label><input type="date" required /></div>
+                        <div class="field"><label>Notes</label><textarea placeholder="Add a small note if needed"></textarea></div>
+                        <button class="btn btn-primary" type="submit">Submit request</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-panel" id="tab-finance" role="tabpanel">
+                  <div class="portal-page-head"><div><h3>Finance options</h3><p>Give patients a place to understand possible insurance, EMI and healthcare financing routes before cost delays treatment.</p></div></div>
+                  <div class="chart-grid">
+                    <div class="chart-card">
+                      <h4>Available routes</h4>
+                      <div class="portal-summary-list">
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-blue">▦</div><div><strong>Insurance guidance</strong><span>Explore relevant coverage pathways through participating providers.</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-teal">₹</div><div><strong>EMI facilities</strong><span>Understand whether treatment costs may be divided into manageable installments.</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-red">↗</div><div><strong>Healthcare financing</strong><span>Request help understanding partner finance options and eligibility requirements.</span></div></div>
+                      </div>
+                      <div class="notice" style="margin-top:16px">Approval and eligibility remain subject to the insurer or finance provider’s own criteria.</div>
+                    </div>
+                    <div class="chart-card">
+                      <h4>Illustrative EMI calculator</h4>
+                      <form class="form-grid" id="emiForm">
+                        <div class="field"><label>Treatment cost (₹)</label><input type="number" id="costInput" min="1000" value="60000" /></div>
+                        <div class="field"><label>Duration</label><select id="monthsInput"><option value="6">6 months</option><option value="9">9 months</option><option value="12" selected>12 months</option><option value="18">18 months</option></select></div>
+                        <div class="soft-card"><h5>Estimated monthly EMI</h5><p style="font-size:28px;font-weight:900;color:var(--navy);margin-top:10px" id="emiResult">₹5,300</p></div>
+                        <button class="btn btn-teal" type="submit">Update estimate</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-panel" id="tab-support" role="tabpanel">
+                  <div class="portal-page-head"><div><h3>Treatment support</h3><p>Patients can ask smaller treatment-related questions without turning every clarification into another full appointment.</p></div></div>
+                  <div class="chart-grid">
+                    <div class="chart-card">
+                      <h4>Request a callback</h4>
+                      <form class="form-grid" id="supportForm">
+                        <div class="field"><label>Topic</label><select required><option value="">Select topic</option><option>Medicine question</option><option>Test preparation</option><option>Follow-up clarification</option><option>Finance guidance</option></select></div>
+                        <div class="field"><label>Who should contact you?</label><select required><option value="">Choose option</option><option>Clinic executive</option><option>Medical health expert</option></select></div>
+                        <div class="field"><label>Your question</label><textarea required placeholder="Describe the smaller doubt or clarification you need"></textarea></div>
+                        <button class="btn btn-primary" type="submit">Request callback</button>
+                      </form>
+                    </div>
+                    <div class="chart-card">
+                      <h4>What this support is for</h4>
+                      <div class="portal-summary-list">
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-teal">✓</div><div><strong>Medicine instructions</strong><span>Clarify smaller questions about the treatment instructions already provided.</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-blue">◷</div><div><strong>Test preparation</strong><span>Understand practical next steps before a scheduled diagnostic test.</span></div></div>
+                        <div class="portal-summary-item"><div class="portal-summary-icon ic-red">!</div><div><strong>Not for emergencies</strong><span>Urgent or new symptoms should be routed to the treating doctor or emergency care.</span></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-panel" id="tab-awareness-tab" role="tabpanel">
+                  <div class="portal-page-head"><div><h3>Health awareness</h3><p>Educational campaigns and interactive sessions can appear naturally inside the patient journey.</p></div></div>
+                  <div class="chart-grid">
+                    <div class="chart-card">
+                      <h4>Recommended campaigns</h4>
+                      <div class="two-col" style="margin-top:0">
+                        <div class="soft-card"><h5>Women’s health after 40</h5><p>Preventive checkups, common symptoms and when to seek professional advice.</p><button class="btn btn-sm btn-primary register-campaign" data-campaign="Women’s health after 40" type="button" style="margin-top:12px">Register</button></div>
+                        <div class="soft-card"><h5>Menstrual health awareness</h5><p>Practical education and why symptoms should not always be ignored.</p><button class="btn btn-sm btn-primary register-campaign" data-campaign="Menstrual health awareness" type="button" style="margin-top:12px">Register</button></div>
+                        <div class="soft-card"><h5>Health after menopause</h5><p>Awareness around changes in the body and the value of regular health checkups.</p><button class="btn btn-sm btn-primary register-campaign" data-campaign="Health after menopause" type="button" style="margin-top:12px">Register</button></div>
+                        <div class="soft-card"><h5>Structural conditions</h5><p>Early signs, treatment pathways and the role of timely assessment.</p><button class="btn btn-sm btn-primary register-campaign" data-campaign="Structural conditions" type="button" style="margin-top:12px">Register</button></div>
+                      </div>
+                    </div>
+                    <div class="chart-card">
+                      <h4>Engagement snapshot</h4>
+                      <div class="portal-kpi-grid" style="grid-template-columns:1fr 1fr;margin-bottom:0">
+                        <div class="portal-kpi"><label>Upcoming sessions</label><strong>4</strong><span>Open for registration</span></div>
+                        <div class="portal-kpi"><label>Total registrations</label><strong id="campaignRegistrations">126</strong><span>Updates live</span></div>
+                      </div>
+                      <div class="notice" style="margin-top:14px">Awareness content supports education and encourages timely professional medical advice. It does not provide diagnosis.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portal-feature-band">
+            <div class="portal-feature-proof"><div class="service-icon ic-teal">＋</div><h4>Medicine tracking</h4><p>Daily intake chart, completion status, refill cues and clinic-connected delivery.</p><strong>Interactive</strong></div>
+            <div class="portal-feature-proof"><div class="service-icon ic-blue">₹</div><h4>Finance support</h4><p>Insurance pathways, EMI exploration and healthcare financing guidance in one place.</p><strong>3 routes</strong></div>
+            <div class="portal-feature-proof"><div class="service-icon ic-red">?</div><h4>Treatment support</h4><p>Patients can request a callback for smaller clarifications without a full appointment.</p><strong>Clinic connected</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="providers">
+      <div class="container">
+        <div class="section-head center reveal">
+          <div class="kicker">Provider-side dashboard</div>
+          <h2>A clean continuity layer for clinics and hospitals.</h2>
+          <p>
+            The clinic-facing side is designed to feel clear, responsible and enterprise-ready.
+            Instead of weak pie charts, the dashboard uses cleaner bars, progress components and readable data visuals.
+          </p>
+        </div>
+
+        <div class="provider-wrap">
+          <div class="provider-image reveal">
+            <img src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=1400&q=80" alt="Clinical support team discussing patient continuity workflow" />
+          </div>
+
+          <div class="dashboard reveal">
+            <div class="dashboard-top">
+              <h3>Clinic Care Dashboard</h3>
+              <div class="filter-row" id="dashboardFilters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="attention">Needs attention</button>
+                <button class="filter-btn" data-filter="support">Support</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+              </div>
+            </div>
+
+            <div class="dashboard-body">
+              <div class="metrics">
+                <div class="metric"><label>Active patients</label><strong>1,240</strong><span>Under treatment</span></div>
+                <div class="metric"><label>Follow-ups</label><strong>86</strong><span>This week</span></div>
+                <div class="metric"><label>Support requests</label><strong>12</strong><span>Awaiting response</span></div>
+                <div class="metric"><label>Finance requests</label><strong>21</strong><span>Open cases</span></div>
+              </div>
+
+              <div class="dashboard-grid">
+                <div class="chart-card">
+                  <h4>Attention mix</h4>
+                  <div class="progress-list">
+                    <div class="progress-row">
+                      <label><span>Follow-ups</span><span>36</span></label>
+                      <div class="progress"><span style="width:78%;background:linear-gradient(90deg,var(--navy),#4a76b7)"></span></div>
+                    </div>
+                    <div class="progress-row">
+                      <label><span>Support</span><span>12</span></label>
+                      <div class="progress"><span style="width:36%;background:linear-gradient(90deg,var(--teal),#6fe0d1)"></span></div>
+                    </div>
+                    <div class="progress-row">
+                      <label><span>Finance</span><span>9</span></label>
+                      <div class="progress"><span style="width:24%;background:linear-gradient(90deg,#f2b44a,#ffd485)"></span></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="chart-card">
+                  <h4>Weekly follow-through</h4>
+                  <svg class="svg-chart" viewBox="0 0 420 220" aria-label="Weekly follow-through bar chart">
+                    <g stroke="#e7eef4" stroke-width="1">
+                      <line x1="40" y1="180" x2="390" y2="180" />
+                      <line x1="40" y1="135" x2="390" y2="135" />
+                      <line x1="40" y1="90" x2="390" y2="90" />
+                      <line x1="40" y1="45" x2="390" y2="45" />
+                    </g>
+                    <g fill="#8aa0b2" font-size="11" font-weight="700">
+                      <text x="28" y="183">0</text>
+                      <text x="24" y="138">25</text>
+                      <text x="24" y="93">50</text>
+                      <text x="24" y="48">75</text>
+                    </g>
+                    <rect x="62" y="86" width="28" height="94" rx="8" fill="#0b3d79" />
+                    <rect x="122" y="72" width="28" height="108" rx="8" fill="#0b3d79" />
+                    <rect x="182" y="54" width="28" height="126" rx="8" fill="#19b19a" />
+                    <rect x="242" y="64" width="28" height="116" rx="8" fill="#19b19a" />
+                    <rect x="302" y="42" width="28" height="138" rx="8" fill="#0b3d79" />
+                    <g fill="#60798d" font-size="12" font-weight="700">
+                      <text x="58" y="202">Mon</text>
+                      <text x="119" y="202">Tue</text>
+                      <text x="177" y="202">Wed</text>
+                      <text x="238" y="202">Thu</text>
+                      <text x="298" y="202">Fri</text>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="table-card">
+                <div class="table-row head">
+                  <div>Patient</div>
+                  <div>Next action</div>
+                  <div>Due</div>
+                  <div>Status</div>
+                </div>
+
+                <div class="table-row patient-row" data-kind="all followup attention">
+                  <div class="patient"><span class="avatar">PM</span>Priya M.</div>
+                  <div>Blood test</div>
+                  <div>Tomorrow</div>
+                  <div><span class="badge blue">Scheduled</span></div>
+                </div>
+
+                <div class="table-row patient-row" data-kind="all attention followup">
+                  <div class="patient"><span class="avatar">AS</span>Anita S.</div>
+                  <div>Missed follow-up</div>
+                  <div>Today</div>
+                  <div><span class="badge red">Attention</span></div>
+                </div>
+
+                <div class="table-row patient-row" data-kind="all support attention">
+                  <div class="patient"><span class="avatar">RK</span>Rahul K.</div>
+                  <div>Support callback</div>
+                  <div>Today</div>
+                  <div><span class="badge teal">Support</span></div>
+                </div>
+
+                <div class="table-row patient-row" data-kind="all finance attention">
+                  <div class="patient"><span class="avatar">NS</span>Niharika S.</div>
+                  <div>Finance guidance</div>
+                  <div>Today</div>
+                  <div><span class="badge green">Finance</span></div>
+                </div>
+
+                <div class="table-row patient-row" data-kind="all followup">
+                  <div class="patient"><span class="avatar">VD</span>Varun D.</div>
+                  <div>Checkup booked</div>
+                  <div>4 Sep</div>
+                  <div><span class="badge blue">Confirmed</span></div>
+                </div>
+              </div>
+
+              <div class="two-col">
+                <div class="soft-card">
+                  <h5>Operational clarity</h5>
+                  <p>Clinics can see where patients are in the journey and where support is required.</p>
+                </div>
+                <div class="soft-card">
+                  <h5>B2B2C delivery model</h5>
+                  <p>Available as a six-month minimum subscription or purchase model with optional patient-support executive support.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="awareness">
+      <div class="container split">
+        <div class="photo-block reveal">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1400&q=80" alt="Doctor presenting a healthcare awareness session" />
+        </div>
+
+        <div class="content-panel reveal">
+          <div class="kicker">Health awareness & prevention</div>
+          <h3>Awareness campaigns should feel like a natural extension of the product.</h3>
+          <p class="lead">
+            CAREBRIDGE can support online awareness campaigns, educational pop-ups and interactive sessions on
+            women’s health, menstrual health, health after menopause, structural deformities and the importance of regular health checkups.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon ic-teal">ℹ</div>
+              <div>
+                <h4>Awareness pop-ups</h4>
+                <p>Prompt patients inside the product with relevant health-awareness content and upcoming sessions.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon ic-blue">⊕</div>
+              <div>
+                <h4>Interactive session registrations</h4>
+                <p>Make event discovery and registration simple, clear and connected to the platform journey.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon ic-red">✓</div>
+              <div>
+                <h4>Preventive health encouragement</h4>
+                <p>Use education to encourage timely checkups and professional consultation where relevant.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="logo-panel reveal">
+          <div class="logo-badge">
+            <img src="assets/carebridge-logo.jpg" alt="CAREBRIDGE full logo" />
+          </div>
+          <p>
+            CAREBRIDGE is built around one simple idea: patients should not feel lost between diagnosis and treatment.
+            The platform helps them understand what comes next, track medicines and follow-ups, ask smaller treatment-related
+            questions, explore finance options, and stay engaged through awareness and prevention support.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="partner" style="padding-top:74px; padding-bottom:88px;">
+      <div class="container cta-grid">
+        <div class="cta-main reveal">
+          <div class="kicker" style="background:rgba(255,255,255,.14); border-color:rgba(255,255,255,.18); color:#fff;">Partner with CAREBRIDGE</div>
+          <h2>Built for clinics and hospitals that want better patient follow-through.</h2>
+          <p>
+            Clinics can adopt CAREBRIDGE as a subscription or purchase model with a minimum six-month subscription period.
+            The platform can also be supported by a trained patient-support executive who helps patients understand and use the application.
+          </p>
+          <div class="hero-actions">
+            <a href="mailto:hello@carebridge.health" class="btn btn-teal">Contact for demo</a>
+            <a href="#providers" class="btn btn-light">See clinic dashboard</a>
+          </div>
+        </div>
+
+        <div class="cta-side reveal">
+          <h3>What the platform includes</h3>
+          <ul>
+            <li>Appointments, diagnostic tests and follow-up tracking</li>
+            <li>Time-based medicine intake chart with reminders</li>
+            <li>Medicine delivery request flow from the clinic</li>
+            <li>Small-doubt support through experts or clinic executives</li>
+            <li>Insurance, EMI and healthcare finance exploration</li>
+            <li>Awareness campaigns and preventive-health sessions</li>
+            <li>B2B2C implementation model for clinics and patients</li>
+            <li>Clean corporate frontend with functional interactive modules</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-badge">
+            <img src="assets/carebridge-logo.jpg" alt="CAREBRIDGE logo" />
+          </div>
+          <p>
+            Bridging the gap between diagnosis and treatment through clearer next steps,
+            better continuity and stronger patient support.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <a href="#about">About</a>
+          <a href="#experience">Patient experience</a>
+          <a href="#providers">Clinic dashboard</a>
+          <a href="#partner">Request a demo</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Features</h4>
+          <a href="#experience">Medicine chart</a>
+          <a href="#experience">Appointments & tests</a>
+          <a href="#experience">Finance support</a>
+          <a href="#awareness">Awareness campaigns</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Important</h4>
+          <a href="#partner">B2B2C model</a>
+          <a href="#partner">6-month subscription</a>
+          <a href="mailto:hello@carebridge.health">Contact</a>
+          <a href="#home">Back to top</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 CAREBRIDGE. Prototype website.</span>
+        <span>CAREBRIDGE supports continuity of care and patient coordination. It does not replace diagnosis, clinical judgment or emergency care.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
